@@ -1,0 +1,12 @@
+.hero-field {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-image {
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(30%);
+  }
+}
