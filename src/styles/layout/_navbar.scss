@@ -1,25 +1,49 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
+@import "../abstracts/variables";
 
+.navbar {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  opacity: 0.8;
   position: fixed;
   top: 0;
-  z-index: 10;
   width: 100%;
+  z-index: 10;
 
-  .title {
-    color: white;
+  .title-wrapper {
     display: flex;
-    margin-left: 20px;
-    font-size: 30px;
+    flex-direction: column;
+    margin: 20px;
     align-items: center;
+
+    .title {
+      align-items: center;
+      color: $dark-brown;
+      display: flex;
+      font-size: 30px;
+      font-weight: bold;
+    }
   }
 
   .menu {
+    color: $dark-brown;
     display: flex;
     gap: 50px;
+    height: 25px;
     list-style: none;
-    margin: 20px;
-    color: white;
+    margin: 10px;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        border-bottom: 2px solid $gray-2;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
   }
 }

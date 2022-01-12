@@ -9,4 +9,11 @@
     object-fit: cover;
     filter: brightness(30%);
   }
+
+  .scroll-icon {
+    bottom: 50px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+  }
 }

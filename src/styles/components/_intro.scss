@@ -1,0 +1,17 @@
+@import "../abstracts/variables";
+
+.intro {
+  align-items: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+
+  .intro-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
