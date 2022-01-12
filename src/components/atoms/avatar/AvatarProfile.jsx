@@ -1,5 +1,5 @@
 import { Avatar } from "@chakra-ui/react";
-import avaPicture from "../../assets/images/ava-picture.jpg";
+import avaPicture from "../../../assets/images/ava-picture.jpg";
 
 function AvatarProfile() {
   return (

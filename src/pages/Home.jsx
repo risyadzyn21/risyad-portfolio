@@ -1,5 +1,5 @@
-import HeroImage from "../components/hero-image/HeroImage";
-import Navbar from "../components/navbar/Navbar";
+import HeroImage from "../components/organisms/hero-image/HeroImage";
+import Navbar from "../components/organisms/navbar/Navbar";
 
 function Home() {
   return (

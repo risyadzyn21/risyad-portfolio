@@ -1,5 +1,5 @@
-import heroImage from "../../assets/images/hero-image.jpg";
-import AvatarProfile from "../avatar/AvatarProfile";
+import heroImage from "../../../assets/images/hero-image.jpg";
+import AvatarProfile from "../../atoms/avatar/AvatarProfile";
 
 function HeroImage() {
   return (
