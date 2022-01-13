@@ -1,0 +1,25 @@
+@import "../abstracts/variables";
+
+.hero-field {
+  .sidebar {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: $white;
+    right: 20px;
+    bottom: 20px;
+
+    &:hover {
+      background-color: $gray-2;
+      color: $white;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-field {
+    .sidebar {
+      display: flex;
+    }
+  }
+}
